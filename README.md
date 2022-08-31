@@ -60,9 +60,10 @@ Step 2 either create an inline function
 
 or create it with brackets 
 
-```module.exports = {```
-``` this and that```
-```}```
+```module.exports = {
+this and that
+}
+```
 
 or if its a class you can do 
 
@@ -78,8 +79,8 @@ or if its a class you can do
    decelerate(num) {
         this.speed -= num
     }
-}```
-
+}
+```
 and export it with a call tot he class name
 
-```module.exports = Car```
+```module.exports = Car``
