@@ -29,22 +29,35 @@ Step 5 npm init and confirm all data.
 ```
 npm init
 ```
+---
 
-Step 6 add .gitignore to the folder 
+### Setting up a git repo
 
-Step 7 in .gitignore write node_modules 
+use 
+```
+git init
+```
+to create a new repo in 
+
+add .gitignore to the folder 
+
+in .gitignore write node_modules 
 
 this will keep the thousands of lines of code from being pushed to the repo.
 
 You now have a blank canvas for what you want to do. 
 
-Step 8 npm i any modules you wish to use. and if required require them
+---
+
+Step 6 npm i any modules you wish to use. and if required require them
 
 ``` 
 const module = require('module')
 ```
 
 the module is ready for use
+
+---
 
 ### Running npm from a clone.
 
@@ -65,6 +78,8 @@ npm i
 this will install everything you need. 
 
 if no .gitignore make one, and then require the modules youre using. 
+
+---
 
 ### Create your own module. 
 
