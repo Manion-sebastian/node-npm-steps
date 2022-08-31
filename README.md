@@ -37,11 +37,9 @@ use
 ```
 git init
 ```
-to create a new repo in 
+to create a new repo
 
-add .gitignore to the folder 
-
-in .gitignore write node_modules 
+create a .gitignore file and inside it write node_modules
 
 this will keep the thousands of lines of code from being pushed to the repo.
 
