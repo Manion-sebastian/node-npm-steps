@@ -56,18 +56,22 @@ Step 1 create a file for your module. it will be a .js
 
 Step 2 either create an inline function
 
-```module.exports.beBasic = () => console.log("That's so fetch!")```
+```
+module.exports.beBasic = () => console.log("That's so fetch!")
+```
 
 or create it with brackets 
 
-```module.exports = {
+```
+module.exports = {   
 this and that
 }
 ```
 
 or if its a class you can do 
 
-```class Car {
+```
+class Car {
     constructor(color, convertible) {
         this.color = color
         this.convertible = convertible
