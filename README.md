@@ -66,19 +66,19 @@ or create it with brackets
 
 or if its a class you can do 
 
-```class Car {```
-    ```constructor(color, convertible) {```
-        ```this.color = color```
-        ```this.convertible = convertible```
-        ```this.speed = 0```
-    ```}```
-    ```accelerate(num) {```
-        ```this.speed += num```
-```}```
-    ```decelerate(num) {```
-        ```this.speed -= num```
-    ```}```
-```}```
+```class Car {
+    constructor(color, convertible) {
+        this.color = color
+        this.convertible = convertible
+        this.speed = 0
+    }
+    accelerate(num) {
+        this.speed += num
+}
+   decelerate(num) {
+        this.speed -= num
+    }
+}```
 
 and export it with a call tot he class name
 
