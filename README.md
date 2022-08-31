@@ -2,23 +2,33 @@
 
 Step 1 install Node.js
 
-```brew install node```
+```
+brew install node
+```
 
 Step 2 install Npm
 
-```npm install```
+```
+npm install
+```
 
 Step 3 create a new directory
 
-```mkdir "folder name"```
+```
+mkdir "folder name"
+```
 
 Step 4 inside the new directory touch the files you require
 
-```cd newFolder -> touch index.js index.html styles.css```
+```
+cd newFolder -> touch index.js index.html styles.css
+```
 
 Step 5 npm init and confirm all data.
 
-```npm init```
+```
+npm init
+```
 
 Step 6 add .gitignore to the folder 
 
@@ -30,7 +40,9 @@ You now have a blank canvas for what you want to do.
 
 Step 8 npm i any modules you wish to use. and if required require them
 
-``` const module = require('module')```
+``` 
+const module = require('module')
+```
 
 the module is ready for use
 
@@ -40,11 +52,15 @@ Step 1 do the above step 1 and 2
 
 Step 2 fork and clone the repo
 
-```git clone url```
+```
+git clone url
+```
 
 should this repo have dependancies use 
 
-```npm i```
+```
+npm i
+```
 
 this will install everything you need. 
 
@@ -87,4 +103,6 @@ class Car {
 ```
 and export it with a call tot he class name
 
-```module.exports = Car``
+```
+module.exports = Car
+```
